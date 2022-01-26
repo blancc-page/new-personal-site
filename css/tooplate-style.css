@@ -179,6 +179,7 @@ b, strong {
 }
 
 .navbar-brand {
+  margin-left: 2rem;
   color: #212121 !important;
   font-weight: bold;
   font-size: 70px;
@@ -494,6 +495,11 @@ b, strong {
 
   .contact-info {
     padding: 0 2rem;
+    bottom: 0;
+  }
+
+  .img-fluid{
+    display: none;
   }
 }
 @media (max-width: 767px) {
